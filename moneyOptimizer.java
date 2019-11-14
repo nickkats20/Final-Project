@@ -7,7 +7,7 @@ public class moneyOptimizer {
         if (moneyIn >= 20) {
             int twenties = (int) (moneyIn / 20);
             System.out.println(twenties);
-           
+           System.out.println("Hi");
         }
 //split into dollars and cents first then subdivide
     }
