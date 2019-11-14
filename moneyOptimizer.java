@@ -1,5 +1,5 @@
 public class moneyOptimizer {
-    public static void main(String[] args) {
+    public static void main(String [] args) {
         change(47.20);
     }
 
