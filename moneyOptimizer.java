@@ -5,8 +5,8 @@ public class moneyOptimizer {
 
     public static void change(double moneyIn) {
         int[] denomination = { 0, 0, 0, 0, 0, 0, 0, 0 };
-        String[] s = { "twenties", "tens", "fives", "singles", "quarters", "dimes", "nickels", "pennies" };
-
+        String[] s = { "Twenties", "Tens", "Fives", "Singles", "Quarters", "Dimes", "Nickels", "Pennies" };
+       
         while (moneyIn / 20 >= 1) {
             moneyIn -= 20;
             denomination[0]++;
