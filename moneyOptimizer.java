@@ -1,6 +1,6 @@
 public class moneyOptimizer {
     public static void main(String[] args) {
-        change(47.63);
+        change(.99);
     }
 
     public static void change(double moneyIn) {
