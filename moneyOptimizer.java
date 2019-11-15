@@ -1,18 +1,12 @@
 public class moneyOptimizer {
     public static void main(String[] args) {
-        change(47.20);
+        change(47.63);
     }
 
     public static void change(double moneyIn) {
         int[] ting = { 0, 0, 0, 0, 0, 0, 0, 0 };
-        // int twenties = 0;
-        // int tens = 0;
-        // int fives = 0;
-        // int dollars = 0;
-        // int quarters = 0;
-        // int dimes = 0;
-        // int nickes = 0;
-        // int pennies = 0;
+        String[] s = { "twenties", "tens", "fives", "singles", "quarters", "dimes", "nickels", "pennies" };
+       
         while (moneyIn / 20 >= 1) {
             moneyIn -= 20;
             ting[0]++;
@@ -45,9 +39,8 @@ public class moneyOptimizer {
             moneyIn -= .01;
             ting[7]++;
         }
-       for(int i = 0; i<=7; i++){
-        System.out.println(i);
-       }
-       System.out.println(moneyIn);
-     }
+        for (int i = 0; i <= 7; i++) {
+            System.out.println(s[i] + " " + ting[i]);
+        }
+    }
 }
