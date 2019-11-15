@@ -35,6 +35,11 @@ public class CashRegister {
         this.twenties = twenties;
         registerNum = nextId;
         nextId++;
+    }
+    public CashRegister(int pennies){
+        this.pennies = pennies;
+        twenties = (int) ((Math.random()*4) + 1);
+        tens = (int) ((Math.random()*11) + 1);
 
     }
 }
