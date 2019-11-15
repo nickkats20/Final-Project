@@ -1,12 +1,12 @@
 public class moneyOptimizer {
     public static void main(String[] args) {
-        change(.99);
+        change(100.6);
     }
 
     public static void change(double moneyIn) {
         int[] denomination = { 0, 0, 0, 0, 0, 0, 0, 0 };
         String[] s = { "twenties", "tens", "fives", "singles", "quarters", "dimes", "nickels", "pennies" };
-       
+
         while (moneyIn / 20 >= 1) {
             moneyIn -= 20;
             denomination[0]++;
