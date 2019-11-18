@@ -39,7 +39,7 @@ public class moneyOptimizer {
             moneyIn -= .01;
             denomination[7]++;
         }
-        if(moneyIn <= .01){                 //not fully optimal
+        if(moneyIn <= .01){                 //not fully optimal, but solves problem of undercounting pennies
             denomination[7]++;
         }
         for (int i = 0; i <= 7; i++) {
