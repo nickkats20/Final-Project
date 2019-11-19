@@ -38,8 +38,17 @@ public class CashRegister {
     }
     public CashRegister(int pennies){
         this.pennies = pennies;
-        twenties = (int) ((Math.random()*4) + 1);
-        tens = (int) ((Math.random()*11) + 1);
-
+        twenties = (int) ((Math.random()*5) + 1);
+        tens = (int) ((Math.random()*12) + 1);
+        fives = (int)((Math.random()*15)+1);
+        dollars = (int)((Math.random()*36)+10);
+        quarters = (int)((Math.random()*15)+10);
+        dimes = (int)((Math.random()*16)+5);
+        nickels = (int)((Math.random()*16)+5);
+        registerNum = nextId;
+        nextId++;
     }
+
+    //methods
+    public int addMoney(
 }
