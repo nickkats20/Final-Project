@@ -1,4 +1,4 @@
-public class CashRegister {
+public class CashRegister{
     //fields
     private int pennies;
     private int nickels;
@@ -50,5 +50,5 @@ public class CashRegister {
     }
 
     //methods
-    public int addMoney(
+   
 }
