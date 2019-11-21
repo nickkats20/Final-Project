@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class TestCashRegister{
+public class TestCashRegister {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         CashRegister c1 = new CashRegister();

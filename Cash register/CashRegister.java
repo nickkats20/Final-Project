@@ -1,4 +1,4 @@
-public class CashRegister{
+public class CashRegister {
     // fields
     private int pennies;
     private int nickels;
@@ -96,52 +96,50 @@ public class CashRegister{
             int fivesRemoved = 0;
             int tensRemoved = 0;
             int twentiesRemoved = 0;
-            if (twenties > 0) {
-                while (amount / 20 >= 1 && twenties > 0) {
-                    amount -= 20;
-                    twenties--;
-                    twentiesRemoved++;
-                }
-                while (amount / 10 >= 1 && tens > 0) {
-                    amount -= 10;
-                    tens--;
-                    tensRemoved++;
-                }
-                while (amount / 5 >= 1 && fives > 0) {
-                    amount -= 5;
-                    fives--;
-                    fivesRemoved++;
-                }
-                while (amount / 1 >= 1 && dollars > 0) {
-                    amount -= 1;
-                    dollars--;
-                    dollarsRemoved++;
-                }
-                while (amount / .25 >= 1 && quarters > 0) {
-                    amount -= .25;
-                    quarters--;
-                    quartersRemoved++;
-                }
-                while (amount / .1 >= 1 && dimes > 0) {
-                    amount -= .1;
-                    dimes--;
-                    dimesRemoved++;
-                }
-                while (amount / .05 >= 1 && nickels > 0) {
-                    amount -= .05;
-                    nickels--;
-                    nickelsRemoved++;
-                }
-                while (amount / .01 >= 1 && pennies > 0) {
-                    amount -= .01;
-                    pennies--;
-                    penniesRemoved++;
-                }
+            while (amount / 20 >= 1 && twenties > 0) {
+                amount -= 20;
+                twenties--;
+                twentiesRemoved++;
+            }
+            while (amount / 10 >= 1 && tens > 0) {
+                amount -= 10;
+                tens--;
+                tensRemoved++;
+            }
+            while (amount / 5 >= 1 && fives > 0) {
+                amount -= 5;
+                fives--;
+                fivesRemoved++;
+            }
+            while (amount / 1 >= 1 && dollars > 0) {
+                amount -= 1;
+                dollars--;
+                dollarsRemoved++;
+            }
+            while (amount / .25 >= 1 && quarters > 0) {
+                amount -= .25;
+                quarters--;
+                quartersRemoved++;
+            }
+            while (amount / .1 >= 1 && dimes > 0) {
+                amount -= .1;
+                dimes--;
+                dimesRemoved++;
+            }
+            while (amount / .05 >= 1 && nickels > 0) {
+                amount -= .05;
+                nickels--;
+                nickelsRemoved++;
+            }
+            while (amount / .01 >= 1 && pennies > 0) {
+                amount -= .01;
+                pennies--;
+                penniesRemoved++;
+            }
 
-                if (Math.abs(amount-.01) < .001 && pennies > 0) { 
-                    pennies--;
-                    penniesRemoved++;
-                }
+            if (Math.abs(amount - .01) < .001 && pennies > 0) {
+                pennies--;
+                penniesRemoved++;
             }
             System.out.println("The following bills and coins have been removed:");
             System.out.println("Twenties:" + twentiesRemoved);

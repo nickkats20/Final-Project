@@ -5,6 +5,13 @@
             "name": "CodeLens (Launch) - TestCashRegister",
             "request": "launch",
             "mainClass": "TestCashRegister",
+            "projectName": "Cash register_4fcbd3c9"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestCashRegister",
+            "request": "launch",
+            "mainClass": "TestCashRegister",
             "projectName": "Cash register_36aef279"
         },
         {
