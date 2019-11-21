@@ -153,6 +153,5 @@ public class CashRegister {
         } else {
             System.out.println("Not enough in Cash Register.");
         }
-
     }
 }

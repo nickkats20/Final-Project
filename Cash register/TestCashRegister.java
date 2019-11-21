@@ -23,5 +23,4 @@ public class TestCashRegister {
         c3.printRegisterStatus();
         System.out.println("********************");
     }
-
 }
