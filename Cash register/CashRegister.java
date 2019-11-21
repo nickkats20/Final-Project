@@ -1,4 +1,4 @@
-public class CashRegister {
+public class CashRegister{
     // fields
     private int pennies;
     private int nickels;

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestCashRegister",
+            "request": "launch",
+            "mainClass": "TestCashRegister",
+            "projectName": "Cash Register Project_2a4a20c8"
+        }
+    ]
+}
