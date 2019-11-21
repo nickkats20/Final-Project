@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TestCashRegister",
+            "request": "launch",
+            "mainClass": "TestCashRegister",
+            "projectName": "Cash register_36aef279"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - moneyOptimizerForCR",
+            "request": "launch",
+            "mainClass": "moneyOptimizerForCR",
+            "projectName": "Cash register_36aef279"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - moneyOptimizer",
             "request": "launch",
             "mainClass": "moneyOptimizer"

@@ -42,6 +42,7 @@ public class moneyOptimizer {
         if(moneyIn <= .01){                 //not fully optimal, but solves problem of undercounting pennies
             denomination[7]++;
         }
+
         for (int i = 0; i <= 7; i++) {
             System.out.println(s[i] + " " + denomination[i]);
         }
